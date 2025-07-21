@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+html {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+header{
+    padding: 3rem;
+}
+
+.calcContain__div {
+    background-color: rgb(77, 77, 77);
+    padding: 2rem;
+    border-radius: 3rem;
+    display: inline-block;
+}
+
+.buttons__ul {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem;
+    grid-gap: 5px;
+    list-style: none;
+}
+
+button {
+    height: 4rem;
+    width: 4rem;
+}
+
+.buttonNoNum {
+    color: palevioletred;
+    background-color: black;
+}
