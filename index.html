@@ -13,30 +13,30 @@
     <main>
         <div class = "calcContain__div">
             <section class="calcScreen__section">
-                <input type="text" name="screen" id="calcDisplay__input">
+                <input type="text" name="screen" id="calcScreen__input" readonly>
             </section>
             <section class="calcButtons__section">
                 <ul class="buttons__ul">
-                    <li><button id="buttonOpenP" class="buttonNoNum">(</button></li>
-                    <li><button id="buttonCloseP" class="buttonNoNum">)</button></li>
-                    <li><button id="buttonModulo" class="buttonNoNum">%</button></li>
-                    <li><button id="buttonClear" class="buttonNoNum">C</button></li>
-                    <li><button id="button7">7</button></li>
-                    <li><button id="button8">8</button></li>
-                    <li><button id="button9">9</button></li>
-                    <li><button id="buttonAdd" class="buttonNoNum">+</button></li>
-                    <li><button id="button4">4</button></li>
-                    <li><button id="button5">5</button></li>
-                    <li><button id="button6">6</button></li>
-                    <li><button id="buttonSub" class="buttonNoNum">-</button></li>
-                    <li><button id="button1">1</button></li>
-                    <li><button id="button2">2</button></li>
-                    <li><button id="button3">3</button></li>
-                    <li><button id="buttonMult" class="buttonNoNum">*</button></li>
-                    <li><button id="buttonDec" class="buttonNoNum">.</button></li>
-                    <li><button id="button0">0</button></li>
-                    <li><button id="buttonEqual" class="buttonNoNum">=</button></li>
-                    <li><button id="buttonDiv" class="buttonNoNum">/</button></li>
+                    <li><button onclick="addToScreen('(')" id="buttonOpenP" class="buttonNoNum">(</button></li>
+                    <li><button onclick="addToScreen(')')" id="buttonCloseP" class="buttonNoNum">)</button></li>
+                    <li><button onclick="addToScreen('5')" id="buttonModulo" class="buttonNoNum">%</button></li>
+                    <li><button onclick="clearScreen()" id="buttonClear" class="buttonEandC">C</button></li>
+                    <li><button onclick="addToScreen('7')" id="button7">7</button></li>
+                    <li><button onclick="addToScreen('8')" id="button8">8</button></li>
+                    <li><button onclick="addToScreen('9')" id="button9">9</button></li>
+                    <li><button onclick="addToScreen('+')" id="buttonAdd" class="buttonNoNum">+</button></li>
+                    <li><button onclick="addToScreen('4')" id="button4">4</button></li>
+                    <li><button onclick="addToScreen('5')" id="button5">5</button></li>
+                    <li><button onclick="addToScreen('6')" id="button6">6</button></li>
+                    <li><button onclick="addToScreen('-')" id="buttonSub" class="buttonNoNum">-</button></li>
+                    <li><button onclick="addToScreen('1')" id="button1">1</button></li>
+                    <li><button onclick="addToScreen('2')" id="button2">2</button></li>
+                    <li><button onclick="addToScreen('3')" id="button3">3</button></li>
+                    <li><button onclick="addToScreen('*')"id="buttonMult" class="buttonNoNum">*</button></li>
+                    <li><button onclick="addToScreen('.')"id="buttonDec" class="buttonNoNum">.</button></li>
+                    <li><button onclick="addToScreen('0')"id="button0">0</button></li>
+                    <li><button onclick="equateMath()"id="buttonEqual" class="buttonEandC">=</button></li>
+                    <li><button onclick="addToScreen('.')"id="buttonDiv" class="buttonNoNum">/</button></li>
                 </ul>
             </section>
         </div>
