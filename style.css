@@ -18,18 +18,21 @@ header{
     padding: 2rem;
     border-radius: 3rem;
     display: inline-block;
+    align-items: center;
+}
+
+#screen {
+    height: 8rem;
+    width: 20rem;
+    background-color: yellowgreen;
+    font-size: 4rem;
+    text-align: end;
+    vertical-align: text-top;
+    align-items: center;
 }
 
 .calcScreen__section {
     padding-bottom: 2rem;
-}
-
-#calcScreen__input {
-    height: 8rem;
-    width: 20rem;
-    font-size: 2.5rem;
-    vertical-align: top;
-    text-align: right;
 }
 
 .buttons__ul {
