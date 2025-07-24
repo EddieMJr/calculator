@@ -12,6 +12,7 @@ function clearScreen(value) {
     console.log(screen.value);
 }
 
-function equateMath(screen) {
-    alert('this equates the math');
+function equateMath(value) {
+    screen.textContent = eval(screen.textContent);
+    console.log(screen.value);
 }
