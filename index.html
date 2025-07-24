@@ -13,15 +13,15 @@
     <main>
         <div class = "calcContain__div">
             <section class="calcScreen__section">
-                <input type="text" name="screen" id="calcScreen__input" readonly>
+                <p id="screen"></p>
             </section>
             <section class="calcButtons__section">
                 <ul class="buttons__ul">
                     <li><button onclick="addToScreen('(')" id="buttonOpenP" class="buttonNoNum">(</button></li>
                     <li><button onclick="addToScreen(')')" id="buttonCloseP" class="buttonNoNum">)</button></li>
-                    <li><button onclick="addToScreen('5')" id="buttonModulo" class="buttonNoNum">%</button></li>
+                    <li><button onclick="addToScreen('%')" id="buttonModulo" class="buttonNoNum">%</button></li>
                     <li><button onclick="clearScreen()" id="buttonClear" class="buttonEandC">C</button></li>
-                    <li><button onclick="addToScreen('7')" id="button7">7</button></li>
+                    <li><button onclick="addToScreen('7')" id="button7" value="7">7</button></li>
                     <li><button onclick="addToScreen('8')" id="button8">8</button></li>
                     <li><button onclick="addToScreen('9')" id="button9">9</button></li>
                     <li><button onclick="addToScreen('+')" id="buttonAdd" class="buttonNoNum">+</button></li>
