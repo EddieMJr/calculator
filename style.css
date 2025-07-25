@@ -60,3 +60,65 @@ button {
     color: black;
     background-color: palevioletred;
 }
+
+@media screen and (min-width: 413px) and (max-width: 600px) {
+    .calcContain__div {
+        width: 50%;
+        padding: 1rem;
+    }
+    
+    #screen {
+        margin-top: 1rem;
+        width: 100%;
+        height: 6rem;
+        font-size: 2rem;
+    }
+    
+    .buttons__ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-row: 1rem;
+
+    }
+    
+    button {
+        height: 3rem;
+        width: 3rem;
+        font-size: medium;
+    }
+    
+}
+
+@media screen and (min-width:299px) and (max-width: 412px) {
+    .calcContain__div {
+        width: 70%;
+        padding: 1rem;
+    }
+    
+    #screen {
+        width: 100%;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+    
+    .buttons__ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-row: 1rem;
+        align-items: center;
+    }
+    
+    button {
+        height: 3rem;
+        width: 3rem;
+        font-size: medium;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    @media screen and (max-width: 298px) {
+        button {
+            height: 2.5rem;
+            width: 2.5rem;
+            font-size: medium;
+        }
+    }
+}
